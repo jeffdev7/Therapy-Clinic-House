@@ -9,7 +9,7 @@ namespace Therapy_Clinic_House
 {
     class connection
     {
-        public MySqlConnection con = new MySqlConnection(@"Server=localhost;Port=3306;database=clinic;User=root; Pwd=password");
+        public MySqlConnection con = new MySqlConnection(@"Server=localhost;Port=3306;database=clinic;User=root; Pwd=123456");
 
         public string connect()
         {

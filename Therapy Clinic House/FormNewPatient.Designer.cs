@@ -119,7 +119,7 @@ namespace Therapy_Clinic_House
             this.txtCode.Location = new System.Drawing.Point(113, 38);
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(100, 20);
-            this.txtCode.TabIndex = 9;
+            this.txtCode.TabIndex = 100;
             // 
             // txtPatient
             // 
