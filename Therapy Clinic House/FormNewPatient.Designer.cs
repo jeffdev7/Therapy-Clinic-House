@@ -138,7 +138,7 @@ namespace Therapy_Clinic_House
             // txtPhone
             // 
             this.txtPhone.Location = new System.Drawing.Point(113, 134);
-            this.txtPhone.Mask = "000-0000";
+            this.txtPhone.Mask = "00 00000-0000";
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(143, 20);
             this.txtPhone.TabIndex = 12;
@@ -247,6 +247,7 @@ namespace Therapy_Clinic_House
             this.Controls.Add(this.lblCode);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormNewPatient";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormNewPatient";
             this.ResumeLayout(false);
             this.PerformLayout();
